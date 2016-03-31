@@ -32,7 +32,7 @@ public class Tests {
 	int capacity = 20;
 	
 //---------------------------------------------------------------	
-/*
+
 	@Test
 	public void testExamSigningSheet() {
 		
@@ -468,9 +468,7 @@ public class Tests {
 		String instructor2 = "Ulrich";
 		int rowNum= 2;
 		int room = 111;
-		//UD3.updateExamInfoDatabase(courseName,courseID,section,month,day,year,weekday,time,duration,building,room,rowNum,capacity,instructor2);
-		
-		
+			
 		int courseID3 = -1;
 		boolean b7 = UD3.updateExamInfoDatabase(courseName,courseID3,courseSection,month,day,year,weekday,time,duration,building,room,rowNum,capacity,instructor);
 		assertEquals(b7,false);
@@ -526,7 +524,6 @@ public class Tests {
 		
 		}
 		
-		*/
 	
 	
 }
