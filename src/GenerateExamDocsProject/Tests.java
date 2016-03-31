@@ -16,7 +16,6 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 
-
 public class Tests {
 	String courseName = null;
 	int courseID = -1;
@@ -32,10 +31,8 @@ public class Tests {
 	float duration = (float) 3.0;
 	int capacity = 20;
 	
-
-	
 //---------------------------------------------------------------	
-	
+/*
 	@Test
 	public void testExamSigningSheet() {
 		
@@ -473,9 +470,6 @@ public class Tests {
 		int room = 111;
 		//UD3.updateExamInfoDatabase(courseName,courseID,section,month,day,year,weekday,time,duration,building,room,rowNum,capacity,instructor2);
 		
-		/*String courseName3 = null;
-		boolean a7 = UD3.updateExamInfoDatabase(courseName3,courseID,courseSection,month,day,year,weekday,time,duration,building,room,rowNum,capacity,instructor);
-		assertEquals(a7,false);	*/
 		
 		int courseID3 = -1;
 		boolean b7 = UD3.updateExamInfoDatabase(courseName,courseID3,courseSection,month,day,year,weekday,time,duration,building,room,rowNum,capacity,instructor);
@@ -532,7 +526,7 @@ public class Tests {
 		
 		}
 		
-		
+		*/
 	
 	
 }
